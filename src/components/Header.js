@@ -42,6 +42,18 @@ class Header extends Component {
     //      and division is done with the slash (/). Addition (+) and subtraction (-) are normal. 
     //    Exponents is done with (**), so 10 squared, or 10*10, can be written as 10**2. 
     const header_height = window.innerHeight - 140;
+    if (this.props.sharedData) {
+      var networks = this.props.sharedData.social.map(function (network) {
+        return (
+          <span key={network.name} className="m-4">
+            <a href={network.url} target="_blank" rel="noopener noreferrer">
+              <i className={network.class}></i>
+            </a>
+          </span>
+        );
+      });
+    }
+
     return (
       <header id="home" style={{ height: header_height, display: 'block' }}>
         <div className="row aligner" style={{height: '100%'}}>
@@ -56,6 +68,7 @@ class Header extends Component {
               5. Replace the value of "data-icon" below with what you just copied. So it should look like
                                                     data-icon="COPIED TEXT" */}
               <span className="iconify header-icon" data-icon="emojione:money-bag" data-inline="false"></span>
+              <div className="social-links">{networks}</div>
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
