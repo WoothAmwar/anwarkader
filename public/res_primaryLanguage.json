@@ -1,85 +1,135 @@
 {
-    "basic_info": {
-      "description_header": "Hello",
-      "description": "👋 I'm Anwar Kader. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hello",
+    "description": "I'm Anwar Kader, a computer science and economics student at the University of Chicago focused on building software that supports research teams and student communities.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Media Viewing Website",
+      "startDate": "2024",
+      "description": "Built a personalized media dashboard that syncs with the YouTube API, caches 100+ channels and 300 videos per user, and adds tagging and watch-later flows across a React frontend, Python services, and MongoDB.",
+      "images": [
+        "images/portfolio/personalWebsite/vercelLogo.png"
+      ],
+      "url": "https://github.com/WoothAmwar/Complete-Personal-Website",
+      "tools": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "tools": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-canva-original",
-            "name": "Canva"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://picsum.photos/500/500",
-        "tools": [
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "tools": [
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "UChicago",
-        "title": "Student",
-        "years": "9.2024 - present",
-        "mainTool": [
-        ],
-        "tools": [
-          "Khan Academy",
-          "The Organic Chemistry Tutor",
-          "ChatGPT"
-        ]
-      },
-      {
-        "company": "ACM",
-        "title": "Participant",
-        "years": "5.2024 - present",
-        "mainTool": [
-          "ReactJS",
-          "Vercel"
-        ],
-        "tools": [
-          "JavaScript",
-          "CSS"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Hurricane Helene 3D Visualization",
+      "startDate": "2025",
+      "description": "Designed an interactive Unity experience that renders 200k+ hurricane data points across six days and mirrors NASA-inspired visualization techniques while automating data prep pipelines with Python, pandas, and xarray.",
+      "images": [
+        "images/portfolio/rcc/rccdataImage.png"
+      ],
+      "url": "https://github.com/WoothAmwar/hurricane_vcc_unity_project",
+      "tools": [
+        {
+          "class": "devicon-unity-original",
+          "name": "Unity"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-pandas-original",
+          "name": "pandas"
+        }
+      ]
+    },
+    {
+      "title": "MCP Server for Flight API",
+      "startDate": "2025",
+      "description": "Hosted a custom MCP server that connects to the Amadeus Flights API to surface live route data, using Python and Gradio on Hugging Face with Claude Desktop and custom MCP clients.",
+      "images": [
+        "images/portfolio/mcp-server/huggingfaceLogo.png"
+      ],
+      "url": "https://huggingface.co/spaces/WoothAmwar/mcp-sentiment/tree/main",
+      "tools": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        },
+        {
+          "class": "devicon-git-plain",
+          "name": "Git"
+        },
+        {
+          "class": "devicon-linux-plain",
+          "name": "Linux"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "University of Chicago ACM",
+      "title": "Board Member, Software Engineering Committee",
+      "years": "Feb 2025 - Present",
+      "mainTool": [
+        "Community Leadership"
+      ],
+      "tools": [
+        "Co-lead weekly software engineering meetings for peers.",
+        "Improved member coding fluency and career readiness."
+      ]
+    },
+    {
+      "company": "Supergroup Research Collective",
+      "title": "Research Assistant",
+      "years": "Apr 2025 - Present",
+      "mainTool": [
+        "Claude API",
+        "Python Automation"
+      ],
+      "tools": [
+        "Used Claude LLM to structure 200+ previously unformatted data entries.",
+        "Built a semi-automated Python pipeline to analyze 10,000+ data points."
+      ]
+    },
+    {
+      "company": "Research Computing Data Visualization Laboratory",
+      "title": "Visualization Lab Assistant",
+      "years": "Apr 2025 - Present",
+      "mainTool": [
+        "Python",
+        "Xarray"
+      ],
+      "tools": [
+        "Reduced load time by 96% via object pooling and optimizations.",
+        "Presented to 15+ computational scientists and researchers."
+      ]
+    }
+  ]
+}
