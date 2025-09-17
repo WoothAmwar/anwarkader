@@ -33,15 +33,7 @@ class About extends Component {
                   {/* TODO - Delete the following lines until told to stop. This will
                           remove the icons that appear under your image */}
                   <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
                     icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   {/* STOP HERE IN YOUR DELETION */}
