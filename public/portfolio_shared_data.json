@@ -15,6 +15,11 @@
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/anwar-kader",
         "class": "fab fa-linkedin"
+      },
+      {
+        "name":"resume",
+        "url":"/resume",
+        "class": "fab fa-wpforms"
       }
     ],
     "image": "myProfile.jpg"
